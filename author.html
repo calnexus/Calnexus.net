@@ -26,7 +26,7 @@
 
     <title>SKYTOP Demos CAD</title>
 	<link href="css/metro.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/nexus.min.css">
+	<link rel="stylesheet" type="text/css" href="css/nexus.css">
     <link rel="stylesheet" type="text/css" href="css/nexus-colors.min.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/nexus-icons.min.css">
@@ -45,13 +45,14 @@
     <div class="app">
         <header class="header fix-slow-animation">
             <button class="nav-button" id="sidebar-toggle"><span></span></button>
-            <span class="app-title">SKYTOP Demos CAD</span>
-            <button class="tool-button"><span class="i-comment icon"></span></button>
+            <span class="app-title">SKYTOP DemosCAD</span>
+            <!--<button class="tool-button"><span class="i-comment icon"></span></button>-->
         </header>
 <!--sidebar initialized-->
         <div class="sidebar" data-role="sidebar" data-toggle="#sidebar-toggle"  data-overlay="true">
             <div class="sidebar-header bg-white">
-                <a href="/" class="fg-white" style="position: absolute; top: 10px; right: 10px;"><span class="mif-home"></span></a>
+                <a href="/" class="fg-white" style="position: absolute; top: 10px; right: 10px;">
+                <span class="mif-home"></span></a>
                 <!-- <div class="avatar" class="ani-logo">
                     <img src="images/author.jpg">
                 </div> -->
@@ -61,27 +62,109 @@
 			<!--sidebar menu-->
             <ul class="sidebar-menu">
 			
-				<li><a href="index.html"><span class="i-home  fg-green"></span>&nbsp;menu</a></li>
-                <li class="disabled"><a href="/"><span class="i-traffic fg-red"></span>&nbsp;menu</a></li>
-                <li><a href="#" class="second-level"><span class="i-settings_ethernet fg-green"></span>&nbsp;menu</a></li>
-                <li><a href="#" class="second-level"><span class="i-portrait fg-green"></span>&nbsp;menu</a></li>
-                <li><a href="#" class="second-level"><span class="i-local_library fg-green"></span>&nbsp;menu</a></li>
-                <li><a href="#" class="second-level" ><span class="i-settings fg-green"></span>&nbsp;Data menu</a></li>
+				<li><a href="index.html"><span class="fa fa-file"></span>&nbsp;&nbsp;File</a></li>
+                <li class="#"><a href="/"><span class="fa fa-text-width"></span>&nbsp;&nbsp;Edit</a></li>
+                <li><a href="#" ><span class="fa fa-id-card-o "></span>&nbsp;&nbsp;View</a></li>
+                <li><a href="#" ><span class="fa fa-code "></span>&nbsp;&nbsp;Insert</a></li>
+                <li><a href="#" ><span class="fa fa-cogs "></span>&nbsp;&nbsp;Format</a></li>
+                <li><a href="#" ><span class="fa fa-code"></span>&nbsp;&nbsp;Tools</a></li>
 				
-				<li><a href="#" class="second-level" ><span class="i-settings fg-green"></span>&nbsp;menu</a></li>
-                <li><a href="#"><span class="i-verified fg-red"></span>&nbsp;Team</a></li>
-				<li><a href="#"><span class="i-photo_add fg-red"></span>&nbsp;menu</a></li>
+				<li><a href="#" ><span class="fa fa-pencil "></span>&nbsp;&nbsp;Draw 
+                <span class="badge red">New</span></a></li><!--inserted a badge//experimental feature-->
+                <li><a href="#"><span class="fa fa-expand "></span>&nbsp;&nbsp;Dimensions</a></li>
+				<li><a href="#"><span class="fa fa-chain-broken "></span>&nbsp;&nbsp;Modify</a></li>
+                <li><a href="#"><span class="fa fa-spinner"></span>&nbsp;&nbsp;Window</a></li>
+                <li><a href="#"><span class="fa fa-bitbucket"></span>&nbsp;&nbsp;Resources</a></li>
+                <li><a href="#"><span class="fa fa-plus-square"></span>&nbsp;&nbsp;Parametric</a></li>
+                <li><a href="#"><span class="fa fa-express "></span>&nbsp;&nbsp;Express</a></li>
 				
             </ul><!--end of side bar menu-->
 			
         </div><!--end of sidebar-->
 
-      <main>
+     
 <!--main content of the application will go here-->
+ <div class="view-content"><!--main content of the application will go here*8******never mess here-->
+       
+<section class="section">
+<!--insert-->
+<div class="row">
 
-      </main>
+
+<div class="col-md-12">
+
+    <!--Card-->
+    <div class="card">
+
+        <!--Card image-->
+        <!--Card image-->
+    <img src="images/autocaad.jpg" alt="autocad 2012 image"><!--subject to change-->
+    <!--/.Card image-->
+        <!--/.Card image-->
+<!-- Nav tabs -->
+<div class="tabs-wrapper"> 
+    <ul class="nav classic-tabs tabs-cyan" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link waves-light active" data-toggle="tab" href="#panel51" role="tab">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" data-toggle="tab" href="#panel52" role="tab">Follow</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" data-toggle="tab" href="#panel53" role="tab">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" data-toggle="tab" href="#panel54" role="tab">Be awesome</a>
+        </li>
+    </ul>
+</div>
+
+<!-- Tab panels -->
+<div class="tab-content card">
+
+    <!--Panel 1-->
+    <div class="card">
+    <div class="tab-pane fade in show active" id="panel51" role="tabpanel">
+        <p>messed up</p>
+
+    </div>
+    </card>
+    <!--/.Panel 1-->
+
+    <!--Panel 2-->
+    <div class="tab-pane fade" id="panel52" role="tabpanel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+
+    </div>
+    <!--/.Panel 2-->
+
+    <!--Panel 3-->
+    <div class="tab-pane fade" id="panel53" role="tabpanel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+
+    </div>
+    <!--/.Panel 3-->
+
+    <!--Panel 4-->
+    <div class="tab-pane fade" id="panel54" role="tabpanel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.</p>
+
+    </div>
+    <!--/.Panel 4-->
+
+</div>
+        
+</div>
+</div>
+
+</section>
+</div><!--end of container wrapper-->
+
+
+     
 		<div class="multi-action floating-action-bottom">
-            <button class="action-button bg-teal-700 fg-white"
+            <button class="action-button fg-white" style="background-color:#2c3e50;"
                     onclick="$(this).toggleClass('active')">
                 <span class="i-add icon"></span>
             </button>
